@@ -41,7 +41,7 @@
   </head>
   <body>
     <header>
-      <nav class="px-40 py-4">
+      <nav class="px-5 md:px-10 lg:px-40 py-4">
         <div class="navbar bg-white-100">
           <div class="navbar-start">
             <div class="dropdown">
@@ -77,7 +77,7 @@
             <a class="flex">
               <img src="images/logo.png" alt="" />
               <h2
-                class="font-extrabold text-4xl text-gray-800 uppercase garamond -ml-24"
+                class="font-extrabold text-2xl mid:lg-3xl lg:text-4xl text-gray-800 uppercase garamond -ml-24"
               >
                 justice
               </h2>
@@ -101,7 +101,7 @@
           </div>
         </div>
       </nav>
-      <section class="header-banner px-40">
+      <section class="header-banner px-5 md:px-10 lg:px-40">
         <div
           class="hero min-h-min rounded-lg"
           style="background-image: url(images/banner.png)"
@@ -110,7 +110,7 @@
           <div class="hero-content text-center py-20 text-neutral-content">
             <div class="max-w-md">
               <h1
-                class="mb-5 text-4xl font-bold text-white gap-y-4 text-7xl font-extrabold garamond"
+                class="mb-5 text-4xl font-bold text-white gap-y-4 text-4xl mid:text-5xl lg:text-7xl font-extrabold garamond"
               >
                 We Provide Effective <br />
                 Legal Solutions
@@ -120,11 +120,11 @@
                 but the majority <br />
                 have suffered alteration in some form, by injected humour.
               </p>
-              <div>
+              <div class="flex justify-center gap-1">
                 <input
                   type="text"
                   placeholder="search your services"
-                  class="input input-bordered w-full max-w-xs"
+                  class="input input-bordered w-full max-w-[200px] Lg:max-w-xs"
                 />
                 <input
                   type="submit"
@@ -138,7 +138,7 @@
       </section>
     </header>
     <main>
-      <section class="legal-area px-40 py-4">
+      <section class="legal-area px-5 md:px-10 lg:px-40">
         <h2 class="garamond font-extrabold text-4xl text-brand text-center">
           The Legal Practice Area
         </h2>
@@ -147,9 +147,9 @@
           the majority have <br />
           suffered alteration in some form, by injected humour.
         </p>
-        <div class="grid grid-cols-3 my-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-10">
           <div
-            class="text-center py-10 px-20 border-r-[1px] border-b-[1px] border-brand"
+            class="text-center py-10 px-20 md:border-r-[1px] lg:border-r-[1px] border-b-[1px] border-brand"
           >
             <div class="m-4 flex justify-center">
               <img src="images/business.png" alt="" />
@@ -163,7 +163,7 @@
             <button class="btn bg-btn-bg text-white font-bold mt-3"><</button>
           </div>
           <div
-            class="text-center py-10 px-20 border-r-[1px] border-b-[1px] border-brand bg-gradient-to-b from-gray-200 to-gray-50"
+            class="text-center py-10 px-20 lg:border-r-[1px] border-b-[1px] border-brand bg-gradient-to-b from-gray-200 to-gray-50"
           >
             <div class="m-4 flex justify-center">
               <img src="images/criminal.png" alt="" />
@@ -176,7 +176,9 @@
             </p>
             <button class="btn bg-btn-bg text-white font-bold mt-3"><</button>
           </div>
-          <div class="text-center py-10 px-20 border-b-[1px] border-brand">
+          <div
+            class="text-center py-10 px-20 border-b-[1px] md:border-r-[1px] border-brand"
+          >
             <div class="m-4 flex justify-center">
               <img src="images/child.png" alt="" />
             </div>
@@ -190,7 +192,9 @@
             </p>
             <button class="btn bg-btn-bg text-white font-bold mt-3"><</button>
           </div>
-          <div class="text-center py-10 px-20 border-r-[1px] border-brand">
+          <div
+            class="text-center py-10 px-20 border-b-[1px] lg:border-r-[1px] border-brand"
+          >
             <div class="m-4 flex justify-center">
               <img src="images/education.png" alt="" />
             </div>
@@ -204,7 +208,9 @@
             </p>
             <button class="btn bg-btn-bg text-white font-bold mt-3"><</button>
           </div>
-          <div class="text-center py-10 px-20 border-r-[1px] border-brand">
+          <div
+            class="text-center py-10 px-20 border-b-[1px] md:border-r-[1px] md:border-b-0 lg:border-r-[1px] border-brand"
+          >
             <div class="m-4 flex justify-center">
               <img src="images/divorce.png" alt="" />
             </div>
@@ -230,7 +236,7 @@
           </div>
         </div>
       </section>
-      <section class="review px-40 py-2">
+      <section class="review px-5 md:px-10 lg:px-40 py-4">
         <h3
           class="garamond text-brand font-extrabold text-4xl mb-4 text-center"
         >
@@ -257,9 +263,13 @@
                       <img src="images/photo-1438761681033-6461ffad8d80.jpeg" />
                     </div>
                   </div>
-                  <h1 class="mb-5 text-5xl font-bold mt-4">Awladisa Hossain</h1>
+                  <h1
+                    class="mb-5 text-3xl md:text-4xl lg:text-5xl font-bold mt-4"
+                  >
+                    Awladisa Hossain
+                  </h1>
                   <h6 class="poppins text-white text-base">UIX Designer</h6>
-                  <p class="mb-5">
+                  <p class="mb-5 px-10">
                     Contrary to popular belief, Lorem Ipsum is not simply random
                     text. It has roots in a piece of classical Latin literature
                     from 45 BC, making it over 2000 years old. Richard
@@ -272,7 +282,7 @@
             </div>
 
             <div
-              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              class="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 md:left-3 md:right-3 lg:left-5 lg:right-5 top-1/2"
             >
               <a href="#slide4" class="btn btn-circle">❮</a>
               <a href="#slide2" class="btn btn-circle">❯</a>
@@ -293,11 +303,15 @@
                       <img src="images/photo-1568602471122-7832951cc4c5.jpeg" />
                     </div>
                   </div>
-                  <h1 class="mb-5 text-5xl font-bold mt-4">George Frew</h1>
+                  <h1
+                    class="mb-5 text-3xl md:text-4xl lg:text-5xl font-bold mt-4"
+                  >
+                    George Frew
+                  </h1>
                   <h6 class="poppins text-white text-base">
                     Frontend DeveloperS
                   </h6>
-                  <p class="mb-5">
+                  <p class="mb-5 px-10">
                     Contrary to popular belief, Lorem Ipsum is not simply random
                     text. It has roots in a piece of classical Latin literature
                     from 45 BC, making it over 2000 years old. Richard
@@ -309,7 +323,7 @@
               </div>
             </div>
             <div
-              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              class="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 md:left-3 md:right-3 lg:left-5 lg:right-5 top-1/2"
             >
               <a href="#slide1" class="btn btn-circle">❮</a>
               <a href="#slide3" class="btn btn-circle">❯</a>
@@ -330,9 +344,13 @@
                       <img src="images/photo-1568602471122-7832951cc4c5.jpeg" />
                     </div>
                   </div>
-                  <h1 class="mb-5 text-5xl font-bold mt-4">gregory treq</h1>
+                  <h1
+                    class="mb-5 text-3xl md:text-4xl lg:text-5xl font-bold mt-4"
+                  >
+                    gregory treq
+                  </h1>
                   <h6 class="poppins text-white text-base">UIX Designer</h6>
-                  <p class="mb-5">
+                  <p class="mb-5 px-10">
                     Contrary to popular belief, Lorem Ipsum is not simply random
                     text. It has roots in a piece of classical Latin literature
                     from 45 BC, making it over 2000 years old. Richard
@@ -344,7 +362,7 @@
               </div>
             </div>
             <div
-              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              class="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 md:left-3 md:right-3 lg:left-5 lg:right-5 top-1/2"
             >
               <a href="#slide2" class="btn btn-circle">❮</a>
               <a href="#slide4" class="btn btn-circle">❯</a>
@@ -365,9 +383,13 @@
                       <img src="images/photo-1527980965255-d3b416303d12.jpeg" />
                     </div>
                   </div>
-                  <h1 class="mb-5 text-5xl font-bold mt-4">Awlad frtu</h1>
+                  <h1
+                    class="mb-5 text-3xl md:text-4xl lg:text-5xl font-bold mt-4"
+                  >
+                    Awlad frtu
+                  </h1>
                   <h6 class="poppins text-white text-base">UIX Designer</h6>
-                  <p class="mb-5">
+                  <p class="mb-5 px-10">
                     Contrary to popular belief, Lorem Ipsum is not simply random
                     text. It has roots in a piece of classical Latin literature
                     from 45 BC, making it over 2000 years old. Richard
@@ -379,7 +401,7 @@
               </div>
             </div>
             <div
-              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              class="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 md:left-3 md:right-3 lg:left-5 lg:right-5 top-1/2"
             >
               <a href="#slide3" class="btn btn-circle">❮</a>
               <a href="#slide1" class="btn btn-circle">❯</a>
