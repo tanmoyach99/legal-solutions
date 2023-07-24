@@ -3,10 +3,139 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700;1,800&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>legal solutions</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: "#414040",
+
+              "btn-bg": "#B68C5A",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .garamond {
+        font-family: "EB Garamond", serif;
+      }
+      .poppins {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav class="px-40 py-4">
+        <div class="navbar bg-white-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </label>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52n text-base"
+              >
+                <li><a>Home</a></li>
+                <li>
+                  <a>Services</a>
+                </li>
+                <li><a>Cases</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <a class="flex">
+              <img src="images/logo.png" alt="" />
+              <h2
+                class="font-extrabold text-4xl text-gray-800 uppercase garamond -ml-24"
+              >
+                justice
+              </h2>
+            </a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul
+              class="menu menu-horizontal px-1 text-base text-gray-600 poppins"
+            >
+              <li><a>Home</a></li>
+              <li>
+                <a>Services</a>
+              </li>
+              <li><a>Cases</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="btn bg-btn-bg text-white">Free consultation</a>
+          </div>
+        </div>
+      </nav>
+      <section class="header-banner py-10 px-40">
+        <div
+          class="hero min-h-fit py-40 rounded-lg"
+          style="background-image: url(images/banner.png)"
+        >
+          <div class="hero-content text-center text-neutral-content">
+            <div class="">
+              <h1
+                class="mb-5 text-5xl font-bold text-white gap-y-4 text-7xl font-extrabold garamond"
+              >
+                We Provide Effective <br />
+                Legal Solutions
+              </h1>
+              <p class="mb-5 mt-4 poppins">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority <br />
+                have suffered alteration in some form, by injected humour.
+              </p>
+              <div>
+                <input
+                  type="text"
+                  placeholder="search your services"
+                  class="input input-bordered w-full max-w-xs"
+                />
+                <input
+                  type="submit"
+                  value="Search"
+                  class="btn bg-btn-bg text-white border-none"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
     <main></main>
     <footer></footer>
   </body>
